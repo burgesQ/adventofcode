@@ -22,8 +22,6 @@ def ex2():
 
     tot = 0
     for l in left:
-        l = int(l)
-
         if l in done:
             continue
 
