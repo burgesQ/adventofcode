@@ -5,7 +5,7 @@ def ex2():
     TLDR: for each elem in right, tot = right * (occurence in left)
 
     Examples:
-    >>> ex1()
+    >>> ex2()
     total occurence is 24643097
     """
     left, right = [], []
@@ -17,8 +17,6 @@ def ex2():
 
             left.append(int(l))
             right.append(int(r))
-
-    print(f" {len(left)} elem in left and right")
 
     done = {}
 
