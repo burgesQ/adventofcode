@@ -1,8 +1,9 @@
-"""Test can be ran with `python3 -m doctest ex2.py`"""
+"""Tests can be ran with `python3 -m doctest ex2.py`"""
 
 def ex2():
     """
     TLDR: for each elem in right, tot = right * (occurence in left)
+    Can be simplified by for unique e in right, tot = e * (nb e in left) * (nb e in right)
 
     Examples:
     >>> ex2()
@@ -30,6 +31,7 @@ def ex2():
 
     # 24643097 expected
     print(f"total occurence is {tot}")
+
 
 if __name__ == "__main__":
     ex2()

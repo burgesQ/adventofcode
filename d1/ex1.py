@@ -1,8 +1,8 @@
-"""Test can be ran with `python3 -m doctest ex1.py`"""
+"""Tests can be ran with `python3 -m doctest ex1.py`"""
 
 def ex1():
     """
-    Calculate distance betwewen elem from list input.txt.
+    Calculate distance betwewen elem from input list.
     See https://adventofcode.com/2024/day/1 for more info
 
     Examples:
@@ -30,8 +30,8 @@ def ex1():
         elif r > l:
             # print(f"adding  r ({r}) - l ({l}) = {r-l}")
             tot += (r - l)
-
-    # 2769675 expected
     print(f"total distance is {tot}")
+
+
 if __name__ == "__main__":
     ex1()
